@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "dotenv -e .env.dev -- nodemon src/server/main.js -w src/server",
-    "start": "dotenv -e .env -- NODE_ENV=production node src/server/main.js",
-    "build": "vite build"
+    "start": "dotenv -e .env -- NODE_ENV=production node src/server/main.js"
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.8.4",
